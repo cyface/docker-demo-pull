@@ -2,6 +2,8 @@
 
 Demo of pulling app image from the Docker Registry and running it with an nginx proxy.
 
+Even if you don't have the docker-demo image locally, docker-compose will pull it down for you.
+
 ### Files:
 - `docker-compose.yml` - Tells Docker compose to run the cyface/docker-demo image, and run nginx as a proxy in front.
 - `nginx.conf` - configuration file for the nginx image - overlays the config file in the image when it runs.
